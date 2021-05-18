@@ -1,0 +1,96 @@
+body {
+    background-color: gainsboro;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px 30px;
+    border: 1px solid #ccc;
+    line-height: 1.8;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+
+  .container {
+    display:flex ;
+    text-align: flex-start;
+    background-color: #fff;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  p {
+    padding-bottom: 5rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    padding: 0.7rem;
+  }
+
+  a:hover {
+    padding: 1.2rem;
+  }
+  
+
+  .container div  {
+    padding: 30px 8px 30px 30px;
+    min-height: 400px;
+  }
+
+  .sedan {
+  background-color: rgb(223, 160, 43);
+  color: #ddd;
+  }
+
+  .suvs {
+  background-color: darkcyan;
+  color: #ddd;
+  }
+
+  .luxury {
+  background-color: rgb(9, 78, 78);
+  color: #ddd;
+  }
+
+  /* media queries */
+  @media screen and (max-width:1200px) {
+    a {
+      background-color: #fff;
+    }
+     .sedan a {
+    color:rgb(223, 160, 43) ;
+  }
+
+   .suvs a {
+    color:darkcyan;
+  }
+
+   .luxury a {
+    color:  rgb(9, 78, 78);
+  }
+  }
+
+  @media screen and (max-width:720px) {
+    .container {
+      flex-direction: column;
+    }
+
+    a {
+      background-color: #fff;
+    }
+     .sedan a {
+    color:rgb(223, 160, 43) ;
+  }
+
+   .suvs a {
+    color:darkcyan;
+  }
+
+   .luxury a {
+    color:  rgb(9, 78, 78);
+  }
+  }
